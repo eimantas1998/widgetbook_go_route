@@ -22,6 +22,7 @@ Widget _defaultAppBuilderMethod(BuildContext context, Widget child) {
     builder: (context, childWidget) {
       return childWidget ?? child;
     },
+    routeInformationProvider: _router.routeInformationProvider,
     debugShowCheckedModeBanner: false,
     routeInformationParser: _router.routeInformationParser,
     routerDelegate: _router.routerDelegate,

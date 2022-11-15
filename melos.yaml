@@ -20,4 +20,6 @@ scripts:
     run: melos exec -c 10 -- "../../tool/verify_pub_score.sh"
     select-package:
       no-private: true
+  get:
+    run: melos exec --fail-fast -- "flutter clean && flutter pub get" 
     description: Checks if the package meets the pub.dev score requirement.
