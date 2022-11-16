@@ -229,10 +229,12 @@ packages:
   go_router:
     dependency: "direct main"
     description:
-      name: go_router
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "5.1.6"
+      path: "packages/go_router"
+      ref: nested-persistent-navigation
+      resolved-ref: f5f0ecb5d25ee5cb4d7428a08dc855f7446df9c7
+      url: "https://github.com/tolo/flutter_packages"
+    source: git
+    version: "5.2.0"
   graphs:
     dependency: transitive
     description:
